@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E78A7AFA201009970025C714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A7AF9201009970025C714 /* AppDelegate.swift */; };
-		E78A7AFC201009970025C714 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A7AFB201009970025C714 /* ViewController.swift */; };
+		E78A7AFC201009970025C714 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A7AFB201009970025C714 /* TodoViewController.swift */; };
 		E78A7AFF201009970025C714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78A7AFD201009970025C714 /* Main.storyboard */; };
 		E78A7B02201009970025C714 /* Bucket_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E78A7B00201009970025C714 /* Bucket_List.xcdatamodeld */; };
 		E78A7B04201009970025C714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78A7B03201009970025C714 /* Assets.xcassets */; };
 		E78A7B07201009970025C714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78A7B05201009970025C714 /* LaunchScreen.storyboard */; };
 		E78A7B12201009970025C714 /* Bucket_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A7B11201009970025C714 /* Bucket_ListTests.swift */; };
 		E78A7B1D201009970025C714 /* Bucket_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A7B1C201009970025C714 /* Bucket_ListUITests.swift */; };
+		E78A7B2B201024770025C714 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A7B2A201024770025C714 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		E78A7AF6201009970025C714 /* Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78A7AF9201009970025C714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E78A7AFB201009970025C714 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E78A7AFB201009970025C714 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		E78A7AFE201009970025C714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E78A7B01201009970025C714 /* Bucket_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bucket_List.xcdatamodel; sourceTree = "<group>"; };
 		E78A7B03201009970025C714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		E78A7B18201009970025C714 /* Bucket ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bucket ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78A7B1C201009970025C714 /* Bucket_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListUITests.swift; sourceTree = "<group>"; };
 		E78A7B1E201009970025C714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78A7B2A201024770025C714 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				E78A7AF9201009970025C714 /* AppDelegate.swift */,
-				E78A7AFB201009970025C714 /* ViewController.swift */,
+				E78A7B00201009970025C714 /* Bucket_List.xcdatamodeld */,
 				E78A7AFD201009970025C714 /* Main.storyboard */,
+				E78A7AFB201009970025C714 /* TodoViewController.swift */,
+				E78A7B2A201024770025C714 /* AddViewController.swift */,
 				E78A7B03201009970025C714 /* Assets.xcassets */,
 				E78A7B05201009970025C714 /* LaunchScreen.storyboard */,
 				E78A7B08201009970025C714 /* Info.plist */,
-				E78A7B00201009970025C714 /* Bucket_List.xcdatamodeld */,
 			);
 			path = "Bucket List";
 			sourceTree = "<group>";
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78A7AFC201009970025C714 /* ViewController.swift in Sources */,
+				E78A7AFC201009970025C714 /* TodoViewController.swift in Sources */,
 				E78A7AFA201009970025C714 /* AppDelegate.swift in Sources */,
+				E78A7B2B201024770025C714 /* AddViewController.swift in Sources */,
 				E78A7B02201009970025C714 /* Bucket_List.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
